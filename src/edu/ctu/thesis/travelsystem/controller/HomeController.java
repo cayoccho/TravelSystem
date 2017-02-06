@@ -14,7 +14,7 @@ public class HomeController{
 	      return "home";
 	   }
  
-   @RequestMapping(value = "/home", method = RequestMethod.GET)
+   @RequestMapping(value = "/trang-chu", method = RequestMethod.GET)
    public String homeController(ModelMap model) {
 
       return "home";

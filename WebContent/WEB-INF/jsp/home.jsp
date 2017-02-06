@@ -27,7 +27,7 @@
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet">
         <!-- Template CSS -->
-        <link rel="stylesheet" href="/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
@@ -60,7 +60,7 @@
                     <div class="row">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="home" title="">
+                            <a href="trang-chu" title="">
                                 <img src="img/logo.png" alt="Logo" />
                             </a>
                         </div>
@@ -75,7 +75,7 @@
                         <div class="text-center visible-lg">
                             <ul id="hornavmenu" class="nav navbar-nav">
                                 <li>
-                                    <a href="home" class="fa-home">Trang Chủ</a>
+                                    <a href="trang-chu" class="fa-home">Trang Chủ</a>
                                 </li>
                                 <li>
                                     <span class="fa-gears">Features</span>
@@ -201,24 +201,24 @@
                                     <span class="fa-th">Giới Thiệu</span>
                                     <ul>
                                         <li>
-                                        <a href="about-us">Về Chúng Tôi</a>
+                                        <a href="gioi-thieu">Về Chúng Tôi</a>
                                         </li>
                                         <li>
-                                        <a href="faq">Câu Hỏi Thường Gặp</a>
+                                        <a href="cau-hoi-thuong-gap">Câu Hỏi Thường Gặp</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact" class="fa-comment">Liên Hệ</a>
+                                    <a href="lien-he" class="fa-comment">Liên Hệ</a>
                                 </li>
                                 <li>
                                     <span class="fa-users">Tài Khoản</span>
                                     <ul>
                                         <li>
-                                            <a href="login" class="fa-phone">Đăng Nhập</a>
+                                            <a href="dang-nhap" class="fa-phone">Đăng Nhập</a>
                                         </li>
                                         <li>
-                                            <a href="signup" class="fa-phone">Đăng ký</a>
+                                            <a href="dang-ky" class="fa-phone">Đăng ký</a>
                                         </li>
                                     </ul>
                                 </li>

@@ -3,14 +3,13 @@ package edu.ctu.thesis.travelsystem.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.ui.ModelMap;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/dang-nhap")
 public class LoginController{
  
    @RequestMapping(method = RequestMethod.GET)
-   public String loginController(ModelMap model) {
+   public String loginController() {
 
       return "login";
    }
