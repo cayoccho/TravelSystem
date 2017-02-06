@@ -362,7 +362,7 @@
                                             </span>
                                         </div>
                                         <div class="col-sm-9">
-                                            <h3 class="margin-vert-10"<a style="color: #2882c6;">Quy định về nội dung thông tin trên Website</a></h3>
+                                            <h3 class="margin-vert-10"><a style="color: #2882c6;">Quy định về nội dung thông tin trên Website</a></h3>
                                             <p>Người sử dụng chịu trách nhiệm về bất cứ nội dung thông tin gửi lên hoặc truyền đi qua Website và không được phép hoặc cho phép người khác tạo ra bất cứ sự khó chịu, phiền toái, quấy rầy nào đối với Website, bất kỳ khách hàng hoặc người sử dụng khác.</p>
                                             <p>Bạn cam kết sử dụng Website trong chừng mực phù hợp với tất cả các luật và quy định hiện hành và đồng ý không sử dụng Website để gửi lên, truyền đi, phân tán, liên kết các nội dung: 
                                                 Chứa các thông tin quảng cáo; 
