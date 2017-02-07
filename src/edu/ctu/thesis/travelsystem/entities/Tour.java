@@ -5,48 +5,59 @@
  ***********************************************************************/
 package edu.ctu.thesis.travelsystem.entities;
 
-import java.util.*;
+import java.util.Date;
 
-/** @pdOid 1e6750b2-db9f-463c-a72b-4b7568a7d49b */
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+
+@Entity
+@Table(name ="TOUR", uniqueConstraints = { @UniqueConstraint(columnNames = {"TOUR"}) })
 public class Tour {
-   /** @pdOid 7da5e01e-678e-46df-9aaa-a1097f41f12f */
    public char ma_tour;
-   /** @pdOid 83eb4344-4089-404d-bb68-c77fec749b1b */
    public String loai_tour;
-   /** @pdOid ead44260-ed57-42a7-aeae-47ee542b12f8 */
    public String ten_tour;
    
-   /** @pdRoleInfo migr=no name=Gia_tour assc=Association_11 coll=java.util.Collection impl=java.util.HashSet mult=1..* type=Aggregation */
    public java.util.Collection<Gia_tour> gia_tour;
-   /** @pdRoleInfo migr=no name=Dia_diem assc=Association_9 coll=java.util.Collection impl=java.util.HashSet mult=1..* */
    public java.util.Collection<Dia_diem> dia_diem;
-   /** @pdRoleInfo migr=no name=Tour_bi_huy assc=Association_2 coll=java.util.Collection impl=java.util.HashSet mult=1..1 type=Composition */
    public Tour_bi_huy tour_bi_huy;
-   /** @pdRoleInfo migr=no name=Ve_tour assc=Association_12 coll=java.util.Collection impl=java.util.HashSet mult=0..* type=Aggregation */
    public java.util.Collection<Ve_tour> ve_tour;
-   /** @pdRoleInfo migr=no name=Khuyen_mai assc=Association_17 coll=java.util.Collection impl=java.util.HashSet mult=0..* */
    public java.util.Collection<Khuyen_mai> khuyen_mai;
-   /** @pdRoleInfo migr=no name=Tour_dang_ky assc=Association_21 coll=java.util.Collection impl=java.util.HashSet mult=0..* type=Composition */
    public java.util.Collection<Tour_dang_ky> tour_dang_ky;
    
-   /** @pdOid 4f39ff65-d218-4db8-8528-c4c83817d599 */
-   public char layMaTour() {
-      // TODO: implement
-      return 0;
+   /* Contructor for Tour */
+   public Tour(char ma_tour, String loai_tour, String ten_tour) {
+	   this.ma_tour = ma_tour;
+	   this.loai_tour = loai_tour;
+	   this.ten_tour = ten_tour;
    }
    
-   /** @param ma_tour
-    * @pdOid 8fb40841-fdac-41a1-82f9-6af3ea4ee7bd */
-   public String layTenTour(char ma_tour) {
-      // TODO: implement
-      return null;
+   /* Setter and Getter method */
+   @Id
+   @Column
+   public char getMaTour() {
+      return ma_tour;
+   }
+   public void setMaTour(char ma_tour) {
+	   this.ma_tour = ma_tour;
    }
    
-   /** @param ma_tour
-    * @pdOid 07b4919f-d5cd-4d79-947b-e73255e3414f */
-   public String layLoaiTour(char ma_tour) {
-      // TODO: implement
-      return null;
+   @Column
+   public String getTenTour() {
+      return ten_tour;
+   }
+   public void setTenTour(String ten_tour) {
+	   this.ten_tour = ten_tour;
+   }
+   
+   @Column
+   public String getLoaiTour() {
+      return loai_tour;
+   }
+   public void setLoaiTour(String loai_tour) {
+	   this.loai_tour = loai_tour;
    }
    
    

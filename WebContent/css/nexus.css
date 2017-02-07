@@ -290,7 +290,7 @@ h1.logo-text a {
   color: #72968f;
 }
 .color-red {
-  color: #8b2626 !important;
+  color: red !important;
 }
 .color-red[class^="fa-"]:before,
 .color-red[class*=" fa-"]:before {
