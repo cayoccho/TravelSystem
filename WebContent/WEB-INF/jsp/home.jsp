@@ -61,7 +61,7 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a href="trang-chu" title="">
-                                <img src="img/logo.png" alt="Logo" />
+                                <img src="img/icon/logo.png" alt="Logo" />
                             </a>
                         </div>
                         <!-- End Logo -->
