@@ -16,3 +16,7 @@ alter table EMPLOYEE add constraint FK65bgags9wjppbn5x7vjcqhext foreign key (DEP
 alter table EMPLOYEE add constraint FKkcawqtfitoe3w528metq1o03c foreign key (MNG_ID) references EMPLOYEE (EMP_ID);
 alter table EMPLOYEE add constraint FK2a6tjfuq36r7idhfm7y9gscqu foreign key (EMP_ID) references EMPLOYEE (EMP_ID);
 alter table TIMEKEEPER add constraint FKifwkxix749p4scwkaeybcj4uc foreign key (EMP_ID) references EMPLOYEE (EMP_ID);
+drop table if exists DIA_DIEM;
+create table DIA_DIEM (MA_DD char(1) not null, TEN_DD varchar(255), TINH_THANH varchar(255), primary key (MA_DD));
+drop table if exists DIA_DIEM;
+create table DIA_DIEM (MA_DD char(1) not null, TEN_DD varchar(255), TINH_THANH varchar(255), primary key (MA_DD));

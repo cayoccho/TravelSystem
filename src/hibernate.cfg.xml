@@ -26,11 +26,13 @@
  
       <!-- Echo all executed SQL to stdout -->
       <property name="show_sql">true</property>
- 
+ 		<!-- 
       <mapping class="edu.ctu.thesis.travelsystem.entities.Department" />
       <mapping class="edu.ctu.thesis.travelsystem.entities.Employee" />
       <mapping class="edu.ctu.thesis.travelsystem.entities.SalaryGrade" />
       <mapping class="edu.ctu.thesis.travelsystem.entities.TimeKeeper" />
+       -->
+      <mapping class="edu.ctu.thesis.travelsystem.entities.Dia_diem" />
  
   </session-factory>
  

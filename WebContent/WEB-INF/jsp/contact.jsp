@@ -79,138 +79,27 @@
                                     <a href="trang-chu" class="fa-home">Trang Chủ</a>
                                 </li>
                                 <li>
-                                    <span class="fa-gears">Features</span>
+                                    <span class="fa-question">Giới Thiệu</span>
                                     <ul>
-                                        <li class="parent">
-                                            <span>Typography</span>
-                                            <ul>
-                                                <li>
-                                                    <a href="features-typo-basic.html">Basic Typography</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-typo-blockquotes.html">Blockquotes</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="parent">
-                                            <span>Components</span>
-                                            <ul>
-                                                <li>
-                                                    <a href="features-labels.html">Labels</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-progress-bars.html">Progress Bars</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-panels.html">Panels</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-pagination.html">Pagination</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="parent">
-                                            <span>Icons</span>
-                                            <ul>
-                                                <li>
-                                                    <a href="features-icons.html">Icons General</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-icons-social.html">Social Icons</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-icons-font-awesome.html">Font Awesome</a>
-                                                </li>
-                                                <li>
-                                                    <a href="features-icons-glyphicons.html">Glyphicons</a>
-                                                </li>
-                                            </ul>
+                                        <li>
+                                            <a href="gioi-thieu">Về Chúng Tôi</a>
                                         </li>
                                         <li>
-                                            <a href="features-testimonials.html">Testimonials</a>
-                                        </li>
-                                        <li>
-                                            <a href="features-accordions-tabs.html">Accordions & Tabs</a>
-                                        </li>
-                                        <li>
-                                            <a href="features-buttons.html">Buttons</a>
-                                        </li>
-                                        <li>
-                                            <a href="features-carousels.html">Carousels</a>
-                                        </li>
-                                        <li>
-                                            <a href="features-grid.html">Grid System</a>
-                                        </li>
-                                        <li>
-                                            <a href="features-animate-on-scroll.html">Animate On Scroll</a>
+                                            <a href="cau-hoi-thuong-gap">Câu Hỏi Thường Gặp</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <span class="fa-copy">Pages</span>
-                                    <ul>
-                                        <li>
-                                            <a href="pages-about-us.html">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-services.html">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-faq.html">F.A.Q.</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-about-me.html">About Me</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-full-width.html">Full Width</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-left-sidebar.html">Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-right-sidebar.html">Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-login.html">Login</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-sign-up.html">Sign-Up</a>
-                                        </li>
-                                        <li>
-                                            <a href="pages-404.html">404 Error Page</a>
-                                        </li>
-                                    </ul>
+                                    <a href="dat-ve" class="fa-book">Đặt Vé</a>
                                 </li>
                                 <li>
-                                    <span class="fa-th">Portfolio</span>
-                                    <ul>
-                                        <li>
-                                            <a href="portfolio-2-column.html">2 Column</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-3-column.html">3 Column</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-4-column.html">4 Column</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-6-column.html">6 Column</a>
-                                        </li>
-                                    </ul>
+                                    <a href="tin-tuc" class="fa-tachometer">Tin Tức</a>
                                 </li>
                                 <li>
-                                    <span class="fa-th">Giới Thiệu</span>
-                                    <ul>
-                                        <li>
-                                        <a href="gioi-thieu">Về Chúng Tôi</a>
-                                        </li>
-                                        <li>
-                                        <a href="cau-hoi-thuong-gap">Câu Hỏi Thường Gặp</a>
-                                        </li>
-                                    </ul>
+                                    <a href="blog" class="fa-tasks">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="lien-he" class="fa-comment">Liên Hệ</a>
+                                    <a href="lien-he" class="fa-phone">Liên Hệ</a>
                                 </li>
                                 <li>
                                     <span class="fa-users">Tài Khoản</span>
@@ -243,20 +132,19 @@
                         <div class="col-md-9">
                             <!-- Main Content -->
                             <div class="headline">
-                                <h2>Contact Form</h2>
+                                <h2>Liên Hệ</h2>
                             </div>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor
-                                sit amet, consectetur adipiscing elit landitiis.</p>
                             <br>
                             <!-- Contact Form -->
                             <form>
-                                <label>Name</label>
+                                <label>Họ Tên
+                                    <span class="color-red">*</span></label>
                                 <div class="row margin-bottom-20">
                                     <div class="col-md-6 col-md-offset-0">
                                         <input class="form-control" type="text">
                                     </div>
                                 </div>
-                                <label>Email
+                                <label>Địa Chỉ Email
                                     <span class="color-red">*</span>
                                 </label>
                                 <div class="row margin-bottom-20">
@@ -264,14 +152,17 @@
                                         <input class="form-control" type="text">
                                     </div>
                                 </div>
-                                <label>Message</label>
+                                <label>Nội Dung
+                                    <span class="color-red">*</span></label>
                                 <div class="row margin-bottom-20">
                                     <div class="col-md-8 col-md-offset-0">
                                         <textarea rows="8" class="form-control"></textarea>
                                     </div>
                                 </div>
+                                <label style="color: red; font-style: italic;">(*) Nội dung bắt buộc phải điền
+                                </label>
                                 <p>
-                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
                                 </p>
                             </form>
                             <!-- End Contact Form -->
@@ -283,25 +174,24 @@
                             <!-- Recent Posts -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Contact Info</h3>
+                                    <h3 class="panel-title">Thông Tin Liên Hệ</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, no cetero voluptatum est, audire sensibus maiestatis vis et. Vitae audire prodesset an his. Nulla ubique omnesque in sit.</p>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <i class="fa-phone color-primary"></i>+353-44-55-66</li>
+                                            <i class="fa-phone color-primary"></i>(0710) 3838 474</li>
                                         <li>
-                                            <i class="fa-envelope color-primary"></i>info@example.com</li>
+                                            <i class="fa-envelope color-primary">
+                                                <a href="mailto:iNYtravel@gmail.com">
+                                            </i>NYtravel@gmail.com</a></li>
                                         <li>
-                                            <i class="fa-home color-primary"></i>http://www.example.com</li>
+                                            <i class="fa-home color-primary">
+                                                <a href="http://www.NYtravel.com">
+                                            </i>www.NYtravel.com</a></li>
                                     </ul>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <strong class="color-primary">Monday-Friday:</strong>9am to 6pm</li>
-                                        <li>
-                                            <strong class="color-primary">Saturday:</strong>10am to 3pm</li>
-                                        <li>
-                                            <strong class="color-primary">Sunday:</strong>Closed</li>
+                                            <strong class="color-primary">Thời gian làm việc:</strong> 24/7</li>
                                     </ul>
                                 </div>
                             </div>
@@ -309,10 +199,10 @@
                             <!-- About -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">About</h3>
+                                    <h3 class="panel-title">Giới Thiệu</h3>
                                 </div>
                                 <div class="panel-body">
-                                    Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat.
+                                    NY Travel Company được thành lập từ năm 2016. Sau một năm phấn đấu, NY Travel Company đã tạo dựng được niềm tin vững chắc trong lòng khách hàng, những người có sở thích du lịch, khám phá các vùng miền khác lạ trong khu vực Đồng bằng sông Cửu Long.
                                 </div>
                             </div>
                             <!-- End About -->
@@ -348,19 +238,19 @@
                         <!-- End Contact Details -->
                         <!-- Sample Menu -->
                         <div class="col-md-3 margin-bottom-20">
-                            <h3 class="margin-bottom-10">Sample Menu</h3>
+                            <h3 class="margin-bottom-10">NY Travel Company</h3>
                             <ul class="menu">
                                 <li>
-                                    <a class="fa-tasks" href="#">Placerat facer possim</a>
+                                    <a class="fa-book" href="gioi-thieu">Đặt Vé</a>
                                 </li>
                                 <li>
-                                    <a class="fa-users" href="#">Quam nunc putamus</a>
+                                    <a class="fa-tasks" href="blog">Blog</a>
                                 </li>
                                 <li>
-                                    <a class="fa-signal" href="#">Velit esse molestie</a>
+                                    <a class="fa-coffee" href="gioi-thieu">Về Chúng Tôi</a>
                                 </li>
                                 <li>
-                                    <a class="fa-coffee" href="#">Nam liber tempor</a>
+                                    <a class="fa-question" href="faq">Câu Hỏi Thường Gặp</a>
                                 </li>
                             </ul>
                             <div class="clearfix"></div>
@@ -369,14 +259,13 @@
                         <div class="col-md-1"></div>
                         <!-- Disclaimer -->
                         <div class="col-md-3 margin-bottom-20 padding-vert-30 text-center">
-                            <h3 class="color-gray margin-bottom-10">Join our Newsletter</h3>
+                            <h3 class="color-gray margin-bottom-10">Đăng Ký Bản Tin</h3>
                             <p>
-                                Sign up for our newsletter for all the
-                                <br>latest news and information
+                                Nhập địa chỉ email để nhận được những tin tức mới nhất từ chúng tôi
                             </p>
                             <input type="email">
                             <br>
-                            <button class="btn btn-primary btn-lg margin-top-20" type="button">Subscribe</button>
+                            <button class="btn btn-primary btn-lg margin-top-20" type="button">Đăng Ký</button>
                         </div>
                         <!-- End Disclaimer -->
                         <div class="clearfix"></div>
@@ -393,13 +282,13 @@
                                     <a href="trang-chu" target="_blank">Trang Chủ</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">Sample Link</a>
+                                    <a href="dat-ve" target="_blank">Đặt Vé</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">Sample Link</a>
+                                    <a href="tin-tuc" target="_blank">Tin Tức</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">Sample Link</a>
+                                    <a href="gioi-thieu" target="_blank">Chính Sách Bảo Mật</a>
                                 </li>
                             </ul>
                         </div>
