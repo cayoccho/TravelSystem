@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.4">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.4">
   
   <display-name>NY Travel</display-name>
   
+  <!-- Config servlet with DispathcherServlet -->
   <servlet>
     <servlet-name>nytravel</servlet-name>
     <servlet-class>
@@ -14,4 +18,19 @@
     <servlet-name>nytravel</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+  
+  <!-- Config context parameter -->
+  <context-param>
+  	<param-name>contextConfigLocation</param-name>
+  	<param-value>
+  		/WEB-INF/dao-cfg.xml
+  		/WEB-INF/data-source-hiber-cfg.xml
+  		/WEB-INF/transaction-cfg.xml
+  	</param-value>
+  </context-param>
+  
+  <!-- Spring ContextLoaderListener -->
+  <listener>
+  	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
 </web-app>
