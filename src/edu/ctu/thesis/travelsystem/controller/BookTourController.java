@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/dang-ky")
-public class SignupController{
+@RequestMapping("/dat-ve")
+public class BookTourController {
  
    @RequestMapping(method = RequestMethod.GET)
-   public String sigupController() {
+	public String booktourController() {
 
-      return "signup";
+      return "booktour";
    }
 
 }
