@@ -32,7 +32,6 @@
 <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
 <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="css/backtotop.css" rel="stylesheet">
 <!-- Google Fonts-->
 <link
 	href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300"
@@ -99,7 +98,6 @@
 		<div id="content-top-border" class="container"></div>
 		<!-- === END HEADER === -->
 		<!-- === BEGIN CONTENT === -->
-		<a href="#" id="scroll" title="Back to Top" style="display: none;">Top<span></span></a>
 		<div id="content">
 			<div class="container no-padding">
 				<div class="row">
@@ -170,7 +168,7 @@
 							<i class="fa-ticket fa-5x color-primary"></i>
 						</div>
 						<div class="col-md-8">
-							<h2 class="margin-top-5 margin-bottom-0">2.000+</h2>
+							<h2 class="margin-top-5 margin-bottom-0">3.000+</h2>
 							<p>VÉ ĐÃ BÁN</p>
 						</div>
 					</div>
@@ -181,19 +179,21 @@
 					<!-- Main Text -->
 					<div class="col-md-12">
 						<h2 class="text-center">Chào mừng đến với công ty NY Travel</h2>
-						<p class="text-center">Lorem ipsum dolor sit amet,
-							consectetuer adipiscing elit, sed diam nonummy nibh euismod
-							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-							enim ad minim veniam, quis nostrud exerci tation ullamcorper
-							suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-						<p class="text-center">Duis autem vel eum iriure dolor in
-							hendrerit in vulputate velit esse molestie consequat, vel illum
-							dolore eu feugiat nulla facilisis at vero eros et accumsan et
-							iusto odio dignissim qui blandit praesent luptatum zzril delenit
-							augue duis dolore te feugait nulla facilisi. Cras non sem sem, at
-							eleifend mi. Nam liber tempor cum soluta nobis eleifend option
-							congue nihil imperdiet doming id quod mazim placerat facer possim
-							assum. Curabitur eget nisl a risus.</p>
+						<p class="text-center">Chính thức thành lập vào tháng 12 năm
+							2016, NY Travel Co. hiện là một trong những đơn vị lữ hành hàng
+							đầu của thành phố Cần Thơ nói riêng và vùng Tây Nam Bộ nói chung.
+							Kế thừa và phát huy kinh nghiệm, bản lĩnh của thương hiệu du lịch
+							nổi tiếng NY Travel đã trở thành địa chỉ tin cậy của đông đảo du
+							khách trong khu vực đồng bằng sông Cửu Long.</p>
+						<p class="text-center">Với tốc độ tăng trưởng kinh tế ấn tượng
+							và trình độ dân trí đang ngày càng nâng cao, NY Travel Co. đã có
+							đầu tư hết sức bài bản từ khâu tuyển chọn nhân sự, hoàn thiện khả
+							năng giao tiếp với khách hàng cho đến việc giới thiệu các tour du
+							lịch chất lượng cao theo đúng chuẩn quốc tế. Bên cạnh đó, những
+							chương trình khuyến mãi hấp dẫn thường niên đã tạo nên một sức
+							hút lớn đối với du khách. Sau mỗi chuyến đi, tất cả du khách đều
+							thể hiện sự hài lòng về chất lượng dịch vụ tốt, hướng dẫn viên
+							nhiệt tình, chu đáo và luôn sẵn sàng hỗ trợ khách hàng.</p>
 					</div>
 					<!-- End Main Text -->
 				</div>
@@ -211,13 +211,14 @@
 										<img alt="SaDecFlowerVillage"
 											src="img/frontpage/SaDecFlowerVillage.jpg">
 										<figcaption>
-											<h3>Sa Dec Flower Village In Dong Thap Province</h3>
-											<span>Tourists seem to be lost in a fairyland, full of
-												colours and aromas of diverse flowers and plants, namely
-												dahlia, hydrangeas, orchids, areca, wrightia religiosa,
-												Hibiskus rosa-sinensis and African marigold. </span> <span
+											<h3>Làng hoa Sa Đéc - Đồng Tháp</h3>
+											<span style="color: white;">Đến Sa Đéc, du khách sẽ có
+												cảm giác như lạc vào thế giới của màu sắc và hương thơm
+												quyến rũ từ hàng ngàn loài hoa: cúc, hồng, lan, cát tường,
+												cau bình rượu, mai chiếu thủy, tùng Nhật, vạn thọ Pháp,…</span> <a
+												href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm > </a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -228,14 +229,14 @@
 									<figure class="animate fadeInRight">
 										<img alt="UMinhHaForest" src="img/frontpage/UMinhHaForest.jpg">
 										<figcaption>
-											<h3>U Minh Ha Forest In Ca Mau Province</h3>
-											<span>U Minh Ha National Park has typical feature of
-												southern mangroves, trees in U Minh forest is mainly
-												mangrove plants and vines with diverse fauna: freshwater
-												fish, pangolins, wild boar, deer, monkeys, squirrels,
-												snakes,...</span> <span
+											<h3>Rừng U Minh Hạ - Cà Mau</h3>
+											<span style="color: white;">Rừng U Minh Hạ có hàng
+												chục loại chim, thú quý hiếm được ghi vào Sách đỏ của Tổ
+												chức Bảo tồn thiên nhiên Quốc tế và cũng là nơi trú ngụ của
+												nhiều loài cá nước ngọt như cá lóc, cá rô, cá trê, thác
+												lác,…</span> <a href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm ></a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -246,13 +247,14 @@
 									<figure class="animate fadeInLeft">
 										<img alt="ValleyOfLove" src="img/frontpage/ValleyOfLove.jpg">
 										<figcaption>
-											<h3>The Valley Of Love In Da Lat City</h3>
-											<span>Situated 6km to the northeast of the heart of
-												the city of Da Lat, the Valley of Love has green pine
-												forests on its beautiful hillsides, tourists are excited
-												about a huge "magic faucet" lying in the air. </span> <span
+											<h3>Thung lũng tình yêu - Đà Lạt</h3>
+											<span style="color: white;">Nơi đây có hồ Đa Thiện vắt
+												ngang thung lũng; có đồi Uyên Ương Hồ Điệp thoai thoải uốn
+												mình quanh co như tấm thảm cổ tích rực rỡ, Vườn Thượng Uyển,
+												Phố Hoa, Mê cung cây, Vườn hoa hồng Panorama,… thầm thì lời
+												kể trong vắt của thiên nhiên bất tận.</span> <a href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm ></a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -263,13 +265,15 @@
 									<figure class="animate fadeInRight">
 										<img alt="VanLinhPagoda" src="img/frontpage/VanLinhPagoda.jpg">
 										<figcaption>
-											<h3>Van Linh Pagoda In An Giang Province</h3>
-											<span>Van Linh Pagoda is situated near a forest of
-												acassia aneura and acacia trees covering 14,400m2. The most
-												impressive features of this pagoda are the three towers
-												before the front hall. </span> <span
+											<h3>Chùa Vạn Linh - An Giang</h3>
+											<span style="color: white;">Ngôi chùa Vạn Linh tựa
+												lưng vào trên sườn đồi Bồ Hong, mặt hướng về hồ Thủy Liêm,
+												khuôn viên trồng nhiều hoa, cây cảnh. Trước sân chùa có
+												nhiều bảo tháp: Hòa thượng Thích Thiện Quang khai sơn, tháp
+												chuông thờ đức Phật A Di Đà, tháp Bồ tát Quan Thế Âm,…</span> <a
+												href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm ></a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -280,12 +284,15 @@
 									<figure class="animate fadeInLeft">
 										<img alt="NhaTrangBeach" src="img/frontpage/NhaTrangBeach.jpg">
 										<figcaption>
-											<h3>Nha Trang Beach In Khanh Hoa Province</h3>
-											<span>This is a place where has a the most beautiful
-												beach in Vietnam. In place, you will see a long white sand,
-												a deep blue sky and very hight coconut-palms. </span> <span
+											<h3>Biển Nha Trang - Khánh Hòa</h3>
+											<span style="color: white;">Biển Nha Trang như một bức
+												tranh thủy mặc đầy sống động, kỳ ảo và thơ mộng mà tạo hóa
+												đã kỳ công tạo ra với bãi cát trắng mịn trải dài, uốn cong
+												như đang ôm ấp, vỗ về vịnh biển xanh trong. Chạy quanh bờ
+												biển là những rặng dừa và hàng dương xanh mát,...</span> <a
+												href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm ></a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -297,13 +304,15 @@
 										<img alt="CaiRangFloatingMarket"
 											src="img/frontpage/CaiRangFloatingMarket.jpg">
 										<figcaption>
-											<h3>Cai Rang Floating Market In Can Tho City</h3>
-											<span>This is the largest floating market in the
-												Mekong Delta, starts around 05:00 and runs until around
-												midday, meaning that you'll have to get an early start to
-												the day if you want to visit. </span> <span
+											<h3>Chợ nổi Cái Răng - Cần Thơ</h3>
+											<span style="color: white;">Chợ nổi Cái Răng buôn bán
+												các loại trái cây, đặc sản của đồng bằng sông Cửu Long. Chợ
+												hoạt động tấp nập từ tờ mờ sáng với nhiều loại thuyền bè lớn
+												nhỏ. Các ghe thuyền thường không có bảng hiệu, bán sản vật
+												gì người ta treo sản vật đó lên cây sào hoặc trên mũi
+												thuyền. </span> <a href="#"
 												style="color: hotpink; text-decoration: underline; font-weight: bold;">
-												Read more > </span>
+												Xem thêm ></a>
 										</figcaption>
 									</figure>
 							</a></li>
@@ -317,14 +326,13 @@
 			<div class="container background-white">
 				<div class="row padding-vert-40">
 					<div class="col-md-12">
-						<h2 class="animate fadeIn text-center">WE ARE CURRENTLY
-							HIRING!</h2>
-						<p class="animate fadeIn text-center">If you like to work with
-							a creative team in a lively and friendly enviroment then call us
-							today!.</p>
+						<h2 class="animate fadeIn text-center">Cơ hội việc làm</h2>
+						<p class="animate fadeIn text-center">Nếu bạn muốn làm việc
+							với đội ngũ sáng tạo trong một môi trường năng động và thân thiện
+							thì gọi chúng tôi ngay bây giờ!.</p>
 						<p class="animate fadeInUp text-center">
-							<button class="btn btn-primary btn-lg" type="button">View
-								Details</button>
+							<button class="btn btn-primary btn-lg" type="button">Xem
+								chi tiết</button>
 						</p>
 					</div>
 				</div>
@@ -356,12 +364,11 @@
 					<div class="col-md-3 margin-bottom-20">
 						<h3 class="margin-bottom-10">NY Travel Company</h3>
 						<ul class="menu">
-							<li><a class="fa-book" href="gioi-thieu">Đặt Vé</a></li>
+							<li><a class="fa-book" href="dat-ve">Đặt Vé</a></li>
 							<li><a class="fa-tasks" href="blog">Blog</a></li>
 							<li><a class="fa-coffee" href="gioi-thieu">Về Chúng Tôi</a>
 							</li>
-							<li><a class="fa-question" href="faq">Câu Hỏi Thường Gặp</a>
-							</li>
+							<li><a class="fa-question" href="faq">Câu Hỏi Thường Gặp</a></li>
 						</ul>
 						<div class="clearfix"></div>
 					</div>
@@ -395,7 +402,7 @@
 						</ul>
 					</div>
 					<div id="copyright" class="col-md-4">
-						<p class="pull-right">(c) 2017 NY Travel Company</p>
+						<p class="pull-right">(c) 2016 NY Travel Company</p>
 					</div>
 				</div>
 			</div>
@@ -423,8 +430,6 @@
 		<script type="text/javascript" src="js/slimbox2.js" charset="utf-8"></script>
 		<!-- Modernizr -->
 		<script src="js/modernizr.custom.js" type="text/javascript"></script>
-		<!-- Back to top -->
-		<script src="js/backtotop.js" type="text/javascript"></script>
 		<!-- End JS -->
 </body>
 </html>

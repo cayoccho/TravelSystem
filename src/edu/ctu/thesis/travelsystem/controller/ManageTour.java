@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/dang-ky")
-public class SignUpController {
+@RequestMapping("/quan-ly-tour")
+public class ManageTour {
+ 
+   @RequestMapping(method = RequestMethod.GET)
+   public String aboutController() {
 
-	@RequestMapping(method = RequestMethod.GET)
-	public String signupController() {
-
-		return "signup";
-	}
+      return "managetour";
+   }
 }

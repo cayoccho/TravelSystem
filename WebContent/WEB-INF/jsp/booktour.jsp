@@ -32,7 +32,6 @@
 <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
 <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="css/backtotop.css" rel="stylesheet">
 <!-- Google Fonts-->
 <link
 	href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300"
@@ -103,15 +102,25 @@
 		<div id="content-top-border" class="container"></div>
 		<!-- === END HEADER === -->
 		<!-- === BEGIN CONTENT === -->
-		<a href="#" id="scroll" title="Back to Top" style="display: none;">Top<span></span></a>
 		<div id="content">
 			<div class="container background-white">
 				<div class="row margin-vert-30">
+					<!-- Search Form -->
+					<div class="error-404-page text-center" style="margin-left: 650px;">
+						<form class="form-search search-404">
+							<div class="input-append">
+								<input type="text" class="span2 search-query"
+									placeholder="Nhập họ tên/ điện thoại/ email">
+								<button type="submit" class="btn btn-primary">Tìm Kiếm</button>
+							</div>
+						</form>
+					</div>
+					<!-- End Search Form -->
 					<!-- Register Box -->
 					<div class="col-md-6 col-md-offset-3 col-sm-offset-3">
 						<form class="signup-page">
 							<div class="signup-header">
-								<h2>Đặt vé</h2>
+								<h2>Đặt Vé</h2>
 								</br>
 							</div>
 							<div class="row">
@@ -121,7 +130,16 @@
 										<span class="input-group-addon"> <i
 											class="fa fa-map-marker"></i>
 										</span> <input placeholder="Nhập tỉnh đi" class="form-control"
-											type="text">
+											type="text" list="placego">
+										<datalist id="placego">
+											<option value="Bạc Liêu">
+											<option value="Cà Mau">
+											<option value="Cần Thơ">
+											<option value="Đồng Tháp">
+											<option value="Kiên Giang">
+											<option value="Sóc Trăng">
+											<option value="Vĩnh Long">
+										</datalist>
 									</div>
 								</div>
 								<div class="col-sm-6">
@@ -130,7 +148,16 @@
 										<span class="input-group-addon"> <i
 											class="fa fa-map-marker"></i>
 										</span> <input placeholder="Nhập tỉnh đến" class="form-control"
-											type="text">
+											type="text" list="placearrive">
+										<datalist id="placearrive">
+											<option value="Bạc Liêu">
+											<option value="Cà Mau">
+											<option value="Cần Thơ">
+											<option value="Đồng Tháp">
+											<option value="Kiên Giang">
+											<option value="Sóc Trăng">
+											<option value="Vĩnh Long">
+										</datalist>
 									</div>
 								</div>
 							</div>
@@ -161,10 +188,22 @@
 									</div>
 								</div>
 							</div>
-							<label>Giá vé</label>
-							<div class="input-group margin-bottom-20">
-								<span class="input-group-addon"> <i class="fa fa-ticket"></i>
-								</span> <input class="form-control" type="text">
+							<div class="row">
+								<div class="col-sm-6">
+									<label>Giá vé</label>
+									<div class="input-group margin-bottom-20">
+										<span class="input-group-addon"> <i class="fa fa-money"></i>
+										</span> <input class="form-control" type="text" readonly="readonly">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<label>Chỗ còn trống</label>
+									<div class="input-group margin-bottom-20">
+										<span class="input-group-addon"> <i
+											class="fa fa-ticket"></i>
+										</span> <input class="form-control" type="text" readonly="readonly">
+									</div>
+								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-8">
@@ -214,13 +253,17 @@
 							</div>
 							<hr>
 							<div class="row">
-								<div class="col-lg-5 text-right">
-									<button class="btn btn-primary" type="submit">Đăng Ký</button>
+									<div class="col-lg-4 text-left">
+										<button class="btn btn-primary" type="submit">Đăng Ký</button>
+									</div>
+									<div class="col-lg-4 text-center">
+										<button class="btn btn-primary" type="submit">Hủy Bỏ</button>
+									</div>
+									<div class="col-lg-4 text-right">
+										<button class="btn btn-primary" type="submit">Nhập
+											Lại</button>
+									</div>
 								</div>
-								<div class="col-lg-5 text-right">
-									<button class="btn btn-primary" type="submit">Nhập Lại</button>
-								</div>
-							</div>
 						</form>
 					</div>
 					<!-- End Register Box -->
@@ -253,7 +296,7 @@
 					<div class="col-md-3 margin-bottom-20">
 						<h3 class="margin-bottom-10">NY Travel Company</h3>
 						<ul class="menu">
-							<li><a class="fa-book" href="gioi-thieu">Đặt Vé</a></li>
+							<li><a class="fa-book" href="dat-ve">Đặt Vé</a></li>
 							<li><a class="fa-tasks" href="blog">Blog</a></li>
 							<li><a class="fa-coffee" href="gioi-thieu">Về Chúng Tôi</a>
 							</li>
@@ -292,7 +335,7 @@
 						</ul>
 					</div>
 					<div id="copyright" class="col-md-4">
-						<p class="pull-right">(c) 2017 NY Travel Company</p>
+						<p class="pull-right">(c) 2016 NY Travel Company</p>
 					</div>
 				</div>
 			</div>

@@ -32,7 +32,6 @@
 <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
 <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="css/backtotop.css" rel="stylesheet">
 <!-- Google Fonts-->
 <link
 	href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300"
@@ -103,7 +102,6 @@
 		<div id="content-top-border" class="container"></div>
 		<!-- === END HEADER === -->
 		<!-- === BEGIN CONTENT === -->
-		<a href="#" id="scroll" title="Back to Top" style="display: none;">Top<span></span></a>
 		<div id="content">
 			<div class="container background-white">
 				<div class="row margin-vert-30">
@@ -210,7 +208,7 @@
 					<div class="col-md-3 margin-bottom-20">
 						<h3 class="margin-bottom-10">NY Travel Company</h3>
 						<ul class="menu">
-							<li><a class="fa-book" href="gioi-thieu">Đặt Vé</a></li>
+							<li><a class="fa-book" href="dat-ve">Đặt Vé</a></li>
 							<li><a class="fa-tasks" href="blog">Blog</a></li>
 							<li><a class="fa-coffee" href="gioi-thieu">Về Chúng Tôi</a>
 							</li>
@@ -249,7 +247,7 @@
 						</ul>
 					</div>
 					<div id="copyright" class="col-md-4">
-						<p class="pull-right">(c) 2017 NY Travel Company</p>
+						<p class="pull-right">(c) 2016 NY Travel Company</p>
 					</div>
 				</div>
 			</div>

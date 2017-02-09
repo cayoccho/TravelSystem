@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/cau-hoi-thuong-gap")
-public class FaqController{
+public class FaqController {
  
    @RequestMapping(method = RequestMethod.GET)
    public String faqController() {

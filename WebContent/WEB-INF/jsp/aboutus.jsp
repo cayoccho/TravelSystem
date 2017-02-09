@@ -32,7 +32,6 @@
 <link rel="stylesheet" href="css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/nexus.css" rel="stylesheet">
 <link rel="stylesheet" href="css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="css/backtotop.css" rel="stylesheet">
 <!-- Google Fonts-->
 <link
 	href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300"
@@ -107,8 +106,6 @@
 			<div class="container background-white">
 				<div class="row margin-vert-30">
 					<div class="col-md-12">
-						<a href="#" id="scroll" title="Back to Top"
-							style="display: none;">Top<span></span></a>
 						<h2 class="margin-vert-20">Giới Thiệu</h2>
 						<div class="row margin-bottom-30">
 							<div class="col-md-4 animate fadeInRight">
@@ -128,9 +125,7 @@
 									mình.
 								</p>
 							</div>
-
 							<div class="col-md-8 animate fadeIn">
-								<!--<div class="col-md-4 col-sm-4 person-details margin-bottom-30"></div>-->
 								<!-- Person Details -->
 								<div class="col-md-4 col-sm-4 person-details margin-bottom-30">
 									<figure>
@@ -139,8 +134,7 @@
 											<h3 class="margin-bottom-10">
 												Trần Lê Quế Ngọc <small> Lập Trình Viên</small>
 											</h3>
-											<span>Nullam id dolor id nibh ultricies vehicula ut id
-												elit.</span>
+											<span></span>
 										</figcaption>
 										<ul class="list-inline person-details-icons">
 											<li><a
@@ -168,8 +162,7 @@
 											<h3 class="margin-bottom-10">
 												Lê Như Ý <small></br> Lập Trình Viên</small>
 											</h3>
-											<span>Nullam id dolor id nibh ultricies vehicula ut id
-												elit.</span>
+											<span></span>
 										</figcaption>
 										<ul class="list-inline person-details-icons">
 											<li><a href="https://www.facebook.com/rtrush09"> <i
@@ -415,7 +408,7 @@
 					<div class="col-md-3 margin-bottom-20">
 						<h3 class="margin-bottom-10">NY Travel Company</h3>
 						<ul class="menu">
-							<li><a class="fa-book" href="gioi-thieu">Đặt Vé</a></li>
+							<li><a class="fa-book" href="dat-ve">Đặt Vé</a></li>
 							<li><a class="fa-tasks" href="blog">Blog</a></li>
 							<li><a class="fa-coffee" href="gioi-thieu">Về Chúng Tôi</a>
 							</li>
@@ -454,7 +447,7 @@
 						</ul>
 					</div>
 					<div id="copyright" class="col-md-4">
-						<p class="pull-right">(c) 2017 NY Travel Company</p>
+						<p class="pull-right">(c) 2016 NY Travel Company</p>
 					</div>
 				</div>
 			</div>

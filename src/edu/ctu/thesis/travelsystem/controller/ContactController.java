@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/lien-he")
-public class ContactController{
+public class ContactController {
  
    @RequestMapping(method = RequestMethod.GET)
    public String contactController() {

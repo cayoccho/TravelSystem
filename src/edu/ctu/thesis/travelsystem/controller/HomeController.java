@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.ui.ModelMap;
 
 @Controller
-public class HomeController{
+public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	   public String redirectController(ModelMap model) {
@@ -19,5 +19,4 @@ public class HomeController{
 
       return "home";
    }
-
 }
