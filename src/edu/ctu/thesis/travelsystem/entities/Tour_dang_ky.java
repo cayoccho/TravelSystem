@@ -5,25 +5,24 @@
  ***********************************************************************/
 package edu.ctu.thesis.travelsystem.entities;
 
-import java.util.*;
+import java.util.Date;
 
-/** @pdOid a1baddf7-6ba3-4e6e-89f5-8508f501e6da */
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "TOUR_DANG_KY")
 public class Tour_dang_ky {
-   /** @pdOid 531b20e4-6005-4751-87ab-a76375bbe2ad */
    private java.util.Date ngay_dang_ky;
    
-   /** @pdRoleInfo migr=no name=Tour_bi_huy assc=Association_22 coll=java.util.Collection impl=java.util.HashSet mult=0..* type=Composition */
    public java.util.Collection<Tour_bi_huy> tour_bi_huy;
    
-   /** @param ma_tour
-    * @pdOid e7bd0016-4cc9-442b-b31a-16f5152ad0c9 */
-   public java.util.Date layNgayDangKy(int ma_tour) {
-      // TODO: implement
-      return null;
+   @Column
+   public Date getNgayDangKy(int ma_tour) {
+      return ngay_dang_ky;
    }
    
-   
-   /** @pdGenerated default getter */
    public java.util.Collection<Tour_bi_huy> getTour_bi_huy() {
       if (tour_bi_huy == null)
          tour_bi_huy = new java.util.HashSet<Tour_bi_huy>();
